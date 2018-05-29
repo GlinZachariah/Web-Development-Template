@@ -1,0 +1,36 @@
+/*
+Auto-generated file. 
+Use mixin (mobile, tablet, desktop, large) to target for different screens
+*/
+@define-mixin mobile {
+  @media (min-width: 480px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin tablet {
+  @media (min-width: 768px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin desktop {
+  @media (min-width: 992px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin large {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+
+/* Use clear fix for clearing float properties*/
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}

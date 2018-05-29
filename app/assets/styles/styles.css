@@ -1,0 +1,13 @@
+/*
+Add import to each module created to be  available in the style.
+No need to mention the file extension.
+*/
+
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+
+/*
+Add new imports here
+*/
